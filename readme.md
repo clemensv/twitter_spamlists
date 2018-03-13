@@ -7,5 +7,5 @@ distinct clusters of bot accounts, about 400-500 per language per
 my current analysis. 
 
 The format is compatible with Twitter's block-list import/export format
-and uses UserIDs. To see the respecive profile, use 
+and uses UserIDs. To see the respective profile, use 
 `https://twitter.com/intent/user?user_id={id}` for a listed ID.
