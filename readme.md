@@ -17,3 +17,28 @@ contains a version of the block list that will work for import.
 Get the ZIP file directly from [this link](https://raw.githubusercontent.com/clemensv/twitter_spamlists/master/block-kiss69-me.csv), 
 unpack the file on your PC, and then go to your [block list on Twitter](https://twitter.com/settings/blocked) 
 and choose the Options dropdown on the right hand side above the list to import.
+
+----
+
+Die Liste in diesem Verzeichnis ist von einem automatischen Suchprogramm
+erstellt worden, das "Porno" Bots, die Städte-Hashtages wie #Mönchengladback oder #Viersen
+vollspammen automatisch findet.
+
+Die Betreiber von "kiss69.me" zielen auf mehrere Sprachen und Länder 
+mit separaten Gruppen von Bot-Accounts; nach meiner Analyse mit 400-500 
+Konten pro Sprache.
+
+Das Format ist kompatibel mit dem import/export Format von Twitter und 
+verwendet numerische Benutzer-IDs. Um das jeweilige Profil zu sehen, 
+verwende `https://twitter.com/intent/user?user_id={id}` mit einer 
+gelisteten ID.
+
+Die Twitter Import/Export Funktion is sehr anspruchsvoll in Sachen 
+Formatierung der Zeilen- und Dateinenden. Die ZIP Datei enthält eine Datei, 
+die sicher funktioniert.
+
+Lade die ZIP Datei direkt von [diesem Link](https://raw.githubusercontent.com/clemensv/twitter_spamlists/master/block-kiss69-me.csv), 
+herunter, packe sie aus, und dann gehe zur [Blockierliste auf Twitter](https://twitter.com/settings/blocked) 
+und wähle "Erweiterte Optionen" auf der rechten Seite über der Liste für den Import.
+
+Bitteschön :)
