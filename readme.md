@@ -10,5 +10,6 @@ The format is compatible with Twitter's block-list import/export format
 and uses UserIDs. To see the respective profile, use 
 `https://twitter.com/intent/user?user_id={id}` for a listed ID.
 
-You can get at the raw CSV file using the "Raw" button when looking 
-at the file details, or just via [this link](https://raw.githubusercontent.com/clemensv/twitter_spamlists/master/block-kiss69-me.csv). 
+Please mind that the Twitter import function for block lists is VERY picky and 
+will expect LF line endings and that the last line must not be blank. The ZIP file 
+contains a version of the block list that will work for import.
