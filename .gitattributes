@@ -1,1 +1,1 @@
-*.csv -lf
+*.csv text eol=lf
