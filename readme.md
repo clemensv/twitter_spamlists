@@ -1,6 +1,24 @@
+IMPORTANT: This is work I am doing for myself because I'm tired of the
+spam. I am in no way suggesting or recommending for anyone to use 
+these lists. They work for me, you may find them useful. 
+
+This work is shared under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). 
+
 The list in this folder has been compiled using a search spider 
 that finds porn spam bots spamming city name hashtags, like #Mönchengladbach 
-or #Viersen as well as "like-spam" from the group.
+or #Viersen as well as "like-spam" from that same group.
+
+The strategy I apply uses a Computer Vision service to verify that included
+accounts are posting pictures that are "racy", in addition to at least one
+further criterion. The Computer Vision step is skipped if the picture has
+already been classified or if the profile shows a pattern known from a spammer
+group. The nature of the chosen algorithm will occasionally find candidates
+that are not part of the targeted bot farm, but that nevertheless meet the
+blocking criteria. Several accounts will look like false positives at first
+sight, but at closer inspecting you will find that most of them have timelines
+nearly completely consisting of retweets, which this algorithm ignores. It will
+rather only look at tweets originating from that account and those will then
+have been classified as meeting the criteria. 
 
 The format is compatible with Twitter's block-list import/export format
 and uses UserIDs. To see the respective profile, use 
